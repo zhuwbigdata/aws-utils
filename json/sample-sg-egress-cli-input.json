@@ -1,0 +1,12 @@
+{
+    "IpPermissions": [
+        {
+            "IpProtocol": "-1",
+            "IpRanges": [
+                {
+                    "CidrIp": "0.0.0.0/0"
+                }
+            ]
+        }
+    ]
+}
