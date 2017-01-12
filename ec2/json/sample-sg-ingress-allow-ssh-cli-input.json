@@ -1,0 +1,14 @@
+{
+    "IpPermissions": [
+        {
+            "IpProtocol": "TCP", 
+            "ToPort": 22,     
+            "FromPort": -1,     
+            "IpRanges": [
+                {
+                    "CidrIp": "0.0.0.0/0"
+                }
+            ]
+        }
+    ]
+}
