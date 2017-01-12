@@ -3,7 +3,7 @@ check_usage() {
   if [ $# -lt 2 ]
   then
     echo "Usage:"
-    echo "$0  [key-pair-name] [private-key-pem-output]" 
+    echo "$0  [key-name] [private-key-pem-output]" 
     exit 1
   fi
 }
