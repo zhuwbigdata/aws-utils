@@ -6,6 +6,7 @@ export AMI_ID_RHEL="ami-873e6190"
 export AMI_ID_CENTOS="ami-2a2ab13d"
 
 # Instance Types
+# https://aws.amazon.com/ec2/instance-types/
 export INSTANCE_TYPE_M3_M="m3.medium"
 export INSTANCE_TYPE_M3_L="m3.large"
 export INSTANCE_TYPE_M3_XL="m3.xlarge"
@@ -29,9 +30,9 @@ export INSTANCE_TYPE_C4_2XL="c4.2xlarge"
 export INSTANCE_TYPE_C4_4XL="c4.4xlarge"
 export INSTANCE_TYPE_C4_8XL="c4.8xlarge"
 
-export EC2_KEY_NAME="amp-devops"
 
-export SECURITY_GROUP="sg-f737cf8b"
-
-export SUBNET_ID="subnet-b23c1dfb"
-
+export INSTANCE_TYPE_R3_L="r3.large"
+export INSTANCE_TYPE_R3_XL="r3.xlarge"
+export INSTANCE_TYPE_R3_2XL="r3.2xlarge"
+export INSTANCE_TYPE_R3_4XL="r3.4xlarge"
+export INSTANCE_TYPE_R3_8XL="r3.8xlarge"
