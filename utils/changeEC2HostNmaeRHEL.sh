@@ -2,6 +2,8 @@
 # Once done, add the following in /etc/cloud/cloud.cfg:
 # preserve_hostname: true
 # Then reboot EC2 instance
+# 
+# Add A records in AWS Rte53 DNS private VPC hosted zone.
 check_usage() {
   if [ $# -lt 1 ]
   then
