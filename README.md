@@ -7,3 +7,6 @@ https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-s
 To swithc ssh key in ssh-agnet:
 $ eval "$(ssh-agent -s)"
 $ ssh-add ~/.ssh/id_rsa
+
+AWS CLI credential configuration
+$ aws configure
